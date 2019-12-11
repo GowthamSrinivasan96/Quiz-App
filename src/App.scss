@@ -1,0 +1,135 @@
+@import './variables.scss';
+.defaultBody {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  height: $window-height;
+  color:#78838d;
+  position: relative;
+  background: #d7d7d7 url('./3.0-fm-login-background-v2.jpg') repeat fixed;
+  background-color: rgb(36, 37, 36);
+  background-position: 66.5% 50%; /* position the background image so that the edge of the triangle lines up with the edge of the browser window */
+  -webkit-background-size: 143%;
+  -moz-background-size: 143%;
+  -o-background-size: 143%;
+  background-size: 143%;
+  
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.login-container {
+  height: 100%;
+  width: 100%;
+  max-width: 1000px;
+  max-height: 701px;
+  background-color:$form-bg-color;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
+
+
+.login-container * {
+  box-sizing: unset;
+}
+
+.login-center-row {
+  margin: 79px 71px 73px 103px;
+}
+
+@media (max-width: 768px) {
+  .login-center-row {
+      max-width: 450px;
+  }
+}
+
+.login-copyright-notice {
+  margin-top: 35px; /* Line up with logo text */
+  color:$footer-notice-color;
+  font-size: $copyright-font-size;
+  line-height: 1.33;
+}
+
+.btn-login {
+  border: 0;
+  background:$btn-bg-color;
+  color: $btn-color;
+  font-size: $btn-font-size;
+  border-radius: 10px;
+  float: right;
+  position: relative;
+  top: 30px;
+  padding: 6px 25px;
+}
+
+.form-container {
+  margin-top: 60px;
+}
+
+.input-container {
+  position: relative;
+}
+
+.login-footer {
+  position: relative;
+  text-align: center;
+}
+
+.banner-text-container {
+  margin-top: 35px;
+  width: 455px;
+  display: inline-block;
+}
+
+.question-header {
+    border:2px solid slategray;
+    overflow: auto;
+    height: 60px;
+    padding: 10px 8px 10px 31px;
+    background-color:#929192b0;
+    font-size: 24px;
+    color: black;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-container {
+    div {
+    background-color:$flex-container-div;
+    margin: 10px;
+    line-height: 75px;
+    font-size: 24px;
+  }
+}
+.header{
+  padding: 20px 10px 0px 30px;
+}
+
+.align-header {
+  text-align: center;
+}
+
+.success {
+  border:2px solid green;
+}
+
+.failure {
+  border:2px solid red;
+}
+
+.endGameHeader {
+  text-align: center;
+  position: fixed;
+  top: 40%;
+  left: 0;
+  right: 0;
+}
+
+input[type=button]:focus {
+  outline:0;
+}

@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches the snapshot 1`] = `
+<div
+  className="defaultBody"
+>
+  <div
+    class="fluid-container login-container"
+  >
+    <div
+      className="header"
+    >
+      <h2
+        style={
+          Object {
+            "display": "inline-block",
+          }
+        }
+      >
+        Trivia-App 
+      </h2>
+      <h3
+        style={
+          Object {
+            "display": "inline-block",
+            "float": "right",
+            "paddingRight": "35px",
+          }
+        }
+      >
+        Score 
+        0
+      </h3>
+      <h4
+        className="align-header"
+      >
+        Questions 
+        1
+         / 
+        0
+      </h4>
+      <h5
+        className="align-header"
+      >
+        Remaining Time: 
+        60
+         sec(s)
+      </h5>
+    </div>
+    <div
+      class=" login-center-row"
+    >
+      <div
+        class="form-container"
+      >
+        <div
+          class="js-enabled-panel"
+        >
+          <div
+            class=" login-content"
+          >
+            <form
+              autocomplete="off"
+              class="form-signin"
+            >
+              <div
+                className="form-group question-header"
+              >
+                
+              </div>
+              <div
+                className="flex-container"
+              >
+                
+              </div>
+            </form>
+            <div
+              class="login-footer"
+            >
+              <div
+                class="banner-text-container"
+              >
+                <div
+                  class="login-copyright-notice"
+                >
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+`;
